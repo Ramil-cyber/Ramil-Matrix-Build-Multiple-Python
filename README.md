@@ -16,19 +16,19 @@ This project leverages GitHub Actions to test compatibility across various Pytho
 
 Example of a formatting run:
 
-![Code Formatting Example](https://github.com/nogibjj/Javidan_Karimli_IDS706_Week4/blob/1b144c960c6d8b927d08a821b0036da0f8071ea3/data/format.png)
+![Code Formatting Example](https://github.com/nogibjj/Ramil-Matrix-Build-Multiple-Python/blob/e1c345e4f6fd6e5d2e39b74444fa2f9fdcfa7d57/data/format.png)
 
 2. Detect potential issues by running `make lint`.
 
 Example of linting results:
 
-![Linting Example](https://github.com/nogibjj/Javidan_Karimli_IDS706_Week4/blob/1b144c960c6d8b927d08a821b0036da0f8071ea3/data/lint.png)
+![Linting Example](https://github.com/nogibjj/Ramil-Matrix-Build-Multiple-Python/blob/e1c345e4f6fd6e5d2e39b74444fa2f9fdcfa7d57/data/lint.png)
 
 3. Run the test suite using `make test`.
 
 Example of test execution:
 
-![Test Execution Example](https://github.com/nogibjj/Javidan_Karimli_IDS706_Week4/blob/1b144c960c6d8b927d08a821b0036da0f8071ea3/data/test.png)
+![Test Execution Example](https://github.com/nogibjj/Ramil-Matrix-Build-Multiple-Python/blob/e1c345e4f6fd6e5d2e39b74444fa2f9fdcfa7d57/data/test.png)
 
 ## Using a Matrix Strategy in GitHub Actions
 
