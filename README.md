@@ -32,4 +32,4 @@ Example of test execution:
 
 ## Using a Matrix Strategy in GitHub Actions
 
-![Matrix Build Example](https://github.com/nogibjj/Javidan_Karimli_IDS706_Week4/blob/1b144c960c6d8b927d08a821b0036da0f8071ea3/data/matrix_build.png)
+![Matrix Build Example](https://github.com/nogibjj/Ramil-Matrix-Build-Multiple-Python/blob/b3e88cebac6476bb82f734fdab6ef86a4494e43f/data/matrix.png)
