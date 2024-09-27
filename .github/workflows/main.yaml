@@ -1,0 +1,37 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main  
+  pull_request:
+    branches:
+      - main  
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8, 3.9, 3.11, 3.12]
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}  
+
+      - name: Create environment 
+        run: make install
+      
+      - name: Format code
+        run : make format
+
+      - name: Lint the code
+        run: make lint
+
+      - name: Run tests
+        run: make test
