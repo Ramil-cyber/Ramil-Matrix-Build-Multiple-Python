@@ -1,8 +1,8 @@
-from src.main import get_os_and_sys_version
+from src.main import os_and_sys_version
 
 
 def test_extended_system():
-    python_ver, sys_ver = get_os_and_sys_version()
+    python_ver, sys_ver = os_and_sys_version()
 
     os_list = ["Windows", "Linux", "macOS", "Ubuntu"]
     python_ver_list = ["3.6", "3.7", "3.8", "3.9", "3.10", "3.11"]
